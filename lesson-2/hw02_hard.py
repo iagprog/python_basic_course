@@ -3,7 +3,6 @@
 # вычислите и выведите y
 
 print("Задача-1.")
-
 equation = 'y = -12x + 11111140.2121'
 x = 2.5
 print("Уравнение прямой: ", equation)
@@ -43,9 +42,6 @@ if len(s) <= 10:
     y = s[6:]
     if dd.isdigit() and mm.isdigit() and y.isdigit():
         if int(dd) < 10:
-            if dd[0] != '0':
-                msg = 0
-        if int(mm) < 10:
             if dd[0] != '0':
                 msg = 0
         dd = int(dd)
