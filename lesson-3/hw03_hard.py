@@ -14,7 +14,7 @@ import math
 
 # inp_str = "5/6 + 4/7"
 
-inp_str = input("Введите выражение:")
+inp_str = input("Введите выражение: ")
 inp_tmp1 = inp_str.replace("- -", "+")
 inp_tmp2 = inp_tmp1.replace("- +", "-")
 inp_exp = inp_tmp2.replace("+ -", "-")
