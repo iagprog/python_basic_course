@@ -39,7 +39,8 @@ def list_dir():
 
 
 def copy_file(file_name):
-    new_file = file_name + '.copy'
+    file_no_ext, file_ext = os.path.splitext(file_name)
+    new_file = file_no_ext + '-copy' + file_ext
     try:
         shutil.copy(file_name, new_file)
     except OSError:
