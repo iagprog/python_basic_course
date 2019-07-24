@@ -46,7 +46,7 @@ def cp_file():
     else:
         easy.copy_file(dir_name)
 
-# Deletes directory of file
+# Deletes directory or file
 
 
 def rm_file():
