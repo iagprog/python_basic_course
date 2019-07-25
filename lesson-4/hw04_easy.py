@@ -11,7 +11,7 @@ import random
 print("Задание-1.")
 old_list = [random.randint(-10, 10) for _ in range(10)]
 print("Исходный список:\n", old_list)
-new_list = [x * x for x in old_list]
+new_list = [_ * _ for _ in old_list]
 print("Новый список, заполненный квадратами элементов исходного списка:\n", new_list)
 
 # Задание-2:
